@@ -1,4 +1,4 @@
-FROM eetech/node-chrome-stable:node8-without-font
+FROM eetech/node-chrome-stable:node8-latest
 
 COPY install-fonts.sh /install-fonts.sh
 
