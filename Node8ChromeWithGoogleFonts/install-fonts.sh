@@ -2,9 +2,6 @@
 
 _gf="google-fonts"
 
-apt-get install wget
-
-rm -f $_gf.tar.gz
 wget https://github.com/google/fonts/archive/master.tar.gz -O $_gf.tar.gz
 tar -xf $_gf.tar.gz
 mkdir -p /usr/share/fonts/truetype/$_gf
